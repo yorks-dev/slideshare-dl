@@ -1,14 +1,13 @@
 import os
 import re
-import requests
 import sys
 import time
+import requests
+
 
 from bs4 import BeautifulSoup
 
 print()
-
-url = ""
 
 # Get the URLZ
 if len(sys.argv) < 2:
